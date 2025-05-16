@@ -31,6 +31,6 @@ async function SearchUpdate(){
     
 }
 
- setInterval(SearchUpdate, 2000)
+ setInterval(SearchUpdate, 3000)
 //sendMessage(idChat, 'Olá, bem-vindo ao GaiaSalus bot! Um bot que te ajudará com informações sobre saúde e meio ambiente!');
 
