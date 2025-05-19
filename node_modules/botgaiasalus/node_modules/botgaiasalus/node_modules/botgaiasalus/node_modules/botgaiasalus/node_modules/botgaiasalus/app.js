@@ -23,7 +23,7 @@ async function SearchUpdate(){
         const textReceived = lastUpdate.message.text
         const idChat = lastUpdate.message.chat.id
 
-        await sendMessage(idChat, "haha " + textReceived)
+        await sendMessage(idChat, "Sua mensagem: " + textReceived)
         offSet = lastUpdate.update_id +1
     }else{
         return
