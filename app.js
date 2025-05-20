@@ -44,22 +44,25 @@ async function searchUpdate(){
 
         if(lastUpdate.message){
             writeWelcomeMessage(lastUpdate)
-            
         }else if(lastUpdate.callback_query){
             const idChat = lastUpdate.callback_query.message.chat.id
-            const data = lastUpdate.callback_query.data
-             const callbackQueryId = lastUpdate.callback_query.id
+            const dataQuery = lastUpdate.callback_query.data
+            const callbackQueryId = lastUpdate.callback_query.id
 
-            switch(data){
+            switch(dataQuery){
                 case "saude":
-                await sendHealthOptionsMenu(idChat, data)
+                await sendHealthOptionsMenu(idChat)
+                break
+                
+                case 'alimentacao-saudavel':
+                await sendMessage(idChat, healthText.healthyEating.content)
                 break
             }
             await answerCallbackquery(callbackQueryId)
         }
     }else{
         return 
-    }
+    } 
 }
 
 
@@ -77,24 +80,15 @@ async function writeWelcomeMessage(lastUpdate){
             
 }
 
-async function sendHealthOptionsMenu(idChat, data) {
+async function sendHealthOptionsMenu(idChat) {
     const buttons = {
         inline_keyboard:[
             [{text: 'Alimentação Saudável', callback_data: 'alimentacao-saudavel'}],
             [{text: 'Saúde Mental', callback_data: 'saude-mental'}]
         ]
     }
-    if(!data){
-        await sendMessage(idChat, "Escolha uma das opções abaixo:", buttons)
-    }
-    
-    switch(data){
-        case 'alimentacao-saudavel':
-            console.log('clicou')//sendMessage(idChat, healthText.healthyEating.content)
-            break
-    }
+    await sendMessage(idChat, "Escolha uma das opções abaixo:", buttons)
 }
-
 
  setInterval(searchUpdate, 3000)
 
