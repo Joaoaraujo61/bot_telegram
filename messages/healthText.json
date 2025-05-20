@@ -1,0 +1,57 @@
+{
+"healthyEating": {
+    "title": "🍎 Alimentação Saudável",
+    "content": "Dicas: [...]",
+    "tips": ["Fruta X", "Vegetal Y"]
+  },
+  "physicalActivity": {
+    "title": "🏃 Atividade Física",
+    "description": "Benefícios e dicas para manter-se ativo.",
+    "content": [
+      "**Recomendação da OMS:** 150 minutos de exercícios moderados por semana.",
+      "**Dicas:** Caminhadas diárias, alongamentos, hidratação.",
+      "**Evite:** Sedentarismo e sobrecarga muscular."
+    ],
+    "targetGroups": ["adultos", "idosos"]
+  },
+  "childHealth": {
+    "title": "👶 Saúde da Criança",
+    "description": "Cuidados essenciais para o desenvolvimento infantil.",
+    "content": [
+      "**Vacinação:** Mantenha a carteirinha em dia.",
+      "**Alimentação:** Frutas, legumes e proteínas magras.",
+      "**Sono:** Crianças precisam de 8-12 horas de sono diário."
+    ],
+    "commonIssues": ["febre", "alergias", "desidratação"]
+  },
+  "elderlyHealth": {
+    "title": "🧓 Saúde do Idoso",
+    "description": "Atenção especial à saúde na terceira idade.",
+    "content": [
+      "**Check-ups:** Realize exames periódicos.",
+      "**Prevenção de quedas:** Adapte a casa com corrimãos e iluminação.",
+      "**Socialização:** Evite isolamento para saúde mental."
+    ],
+    "keyExams": ["densitometria óssea", "check-up cardíaco"]
+  },
+  "personalHygiene": {
+    "title": "🧼 Higiene Pessoal",
+    "description": "Práticas para prevenir doenças e infecções.",
+    "content": [
+      "**Lavagem das mãos:** Use água e sabão por 20 segundos.",
+      "**Cuidados bucais:** Escove os dentes 3x ao dia.",
+      "**Banho diário:** Fundamental para eliminar bactérias."
+    ],
+    "highRiskSituations": ["pandemia", "viagens"]
+  },
+  "mentalHealth": {
+    "title": "🧠 Saúde Mental",
+    "description": "Cuidando da mente e das emoções.",
+    "content": [
+      "**Autocuidado:** Reserve tempo para hobbies e descanso.",
+      "**Sinais de alerta:** Isolamento, irritabilidade persistente.",
+      "**Procure ajuda:** Psicólogos e psiquiatras são aliados."
+    ],
+    "resources": ["meditação", "terapia", "grupos de apoio"]
+  }
+}
