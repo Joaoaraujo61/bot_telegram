@@ -21,11 +21,12 @@ Um bot para Telegram feito em **Node.js**, que oferece informações educativas 
 
 ## 📁 Estrutura do Projeto
 
+```text
 bot_telegram/
 ├── messages/
-│ ├── environmentTopics.json # Conteúdo sobre meio ambiente
-│ └── healthText.json # Conteúdo sobre saúde
-├── .env # Contém o token do bot (não incluído no Git)
-├── bot.js # Código principal do bot
+│   ├── environmentTopics.json  # Conteúdo sobre meio ambiente
+│   └── healthText.json         # Conteúdo sobre saúde
+├── .env                        # Contém o token do bot (não incluído no Git)
+├── bot.js                      # Código principal do bot
 └── README.md
 
