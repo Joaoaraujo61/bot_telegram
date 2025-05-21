@@ -1,0 +1,55 @@
+{
+  "recycling": {
+    "title": "♻️ Reciclagem e Descarte Correto",
+    "description": "Como separar resíduos e evitar a poluição.",
+    "content": [
+      "**Materiais recicláveis:** Papel, plástico, vidro e metal devem ser lavados e separados.",
+      "**Pilhas e eletrônicos:** Descarte em pontos de coleta específicos (evitam contaminação do solo).",
+      "**Óleo de cozinha:** Nunca despeje na pia! Armazene em garrafas e leve a postos de reciclagem."
+    ],
+    "benefits": [
+      "Reduz a extração de recursos naturais",
+      "Diminui o lixo em aterros sanitários"
+    ]
+  },
+  "waterConservation": {
+    "title": "💧 Economia de Água",
+    "description": "Práticas para reduzir o desperdício de água.",
+    "content": [
+      "**Banhos rápidos:** Feche o chuveiro ao se ensaboar (economiza até 90 litros por banho!).",
+      "**Torneiras:** Conserte vazamentos e use aeradores (reduzem o fluxo sem perder eficiência).",
+      "**Reúso:** Utilize água da chuva para regar plantas ou lavar quintais."
+    ],
+    "criticalData": "Segundo a ONU, 2.2 bilhões de pessoas não têm acesso à água potável."
+  },
+  "energyConservation": {
+    "title": "💡 Economia de Energia",
+    "description": "Dicas para reduzir consumo elétrico.",
+    "content": [
+      "**Iluminação:** Troque lâmpadas incandescentes por LED (economiza até 80% de energia).",
+      "**Eletrodomésticos:** Desligue da tomada quando não estiverem em uso (evita 'consumo fantasma').",
+      "**Ar-condicionado:** Mantenha filtros limpos e temperatura em 24°C."
+    ],
+    "impact": "Reduz emissões de CO2 e valor da conta de luz."
+  },
+  "wildfires": {
+    "title": "🔥 Queimadas",
+    "description": "Riscos e como prevenir incêndios florestais.",
+    "content": [
+      "**Causas comuns:** Bitucas de cigarro, balões e limpeza irregular de terrenos.",
+      "**Impactos:** Destruição de fauna, perda de biodiversidade e aumento do aquecimento global.",
+      "**Denuncie:** Ligue para o número ambiental da sua região (ex.: 0800-61-8080 no Brasil)."
+    ],
+    "statistic": "Em 2023, o Pantanal perdeu 26% de sua área para queimadas."
+  },
+  "deforestation": {
+    "title": "🌳 Desmatamento",
+    "description": "Consequências e como combater.",
+    "content": [
+      "**Principais causas:** Agropecuária, mineração e expansão urbana desordenada.",
+      "**Efeitos:** Desertificação, extinção de espécies e alterações no ciclo da água.",
+      "**Apoie:** Consumo de produtos com selo sustentável (ex.: FSC para madeira)."
+    ],
+    "alarmingFact": "A Amazônia perdeu 18 árvores por segundo em 2022."
+  }
+}

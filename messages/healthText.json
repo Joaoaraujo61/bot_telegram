@@ -1,16 +1,22 @@
 {
-"healthyEating": {
+  "healthyEating": {
     "title": "🍎 Alimentação Saudável",
-    "content": "Dicas: [...]",
-    "tips": ["Fruta X", "Vegetal Y"]
+    "description": "Dicas práticas para uma nutrição balanceada no dia a dia",
+    "content": [
+      "<strong>Frutas e vegetais:</strong>\nConsuma pelo menos 5 porções diárias (1 porção = 80g). Variedade de cores garante diversidade de nutrientes.",
+      "<strong>Proteínas:</strong>\nPrefira fontes magras como peixes, frango sem pele, ovos e leguminosas (feijão, lentilha).",
+      "<strong>Grãos integrais:</strong>\nSubstitua arroz branco por integral, e pão comum por versões com grãos.",
+      "<strong>Hidratação:</strong>\nBeba 2L de água/dia. Evite sucos industrializados e refrigerantes.",
+      "<strong>Evite:</strong>\nAlimentos ultraprocessados, excesso de sal e açúcares refinados."
+    ]
   },
   "physicalActivity": {
     "title": "🏃 Atividade Física",
     "description": "Benefícios e dicas para manter-se ativo.",
     "content": [
-      "**Recomendação da OMS:** 150 minutos de exercícios moderados por semana.",
-      "**Dicas:** Caminhadas diárias, alongamentos, hidratação.",
-      "**Evite:** Sedentarismo e sobrecarga muscular."
+      "<strong>Recomendação da OMS:</strong>\n150 minutos de exercícios moderados por semana.",
+      "<strong>Dicas:</strong>\nCaminhadas diárias, alongamentos, hidratação.",
+      "<strong>Evite:</strong>\nSedentarismo e sobrecarga muscular."
     ],
     "targetGroups": ["adultos", "idosos"]
   },
@@ -18,9 +24,9 @@
     "title": "👶 Saúde da Criança",
     "description": "Cuidados essenciais para o desenvolvimento infantil.",
     "content": [
-      "**Vacinação:** Mantenha a carteirinha em dia.",
-      "**Alimentação:** Frutas, legumes e proteínas magras.",
-      "**Sono:** Crianças precisam de 8-12 horas de sono diário."
+      "<strong>Vacinação:</strong>\nMantenha a carteirinha em dia.",
+      "<strong>Alimentação:</strong>\nFrutas, legumes e proteínas magras.",
+      "<strong>Sono:</strong>\nCrianças precisam de 8-12 horas de sono diário."
     ],
     "commonIssues": ["febre", "alergias", "desidratação"]
   },
@@ -28,9 +34,9 @@
     "title": "🧓 Saúde do Idoso",
     "description": "Atenção especial à saúde na terceira idade.",
     "content": [
-      "**Check-ups:** Realize exames periódicos.",
-      "**Prevenção de quedas:** Adapte a casa com corrimãos e iluminação.",
-      "**Socialização:** Evite isolamento para saúde mental."
+      "<strong>Check-ups:</strong>\nRealize exames periódicos.",
+      "<strong>Prevenção de quedas:</strong>\nAdapte a casa com corrimãos e iluminação.",
+      "<strong>Socialização:</strong>\nEvite isolamento para saúde mental."
     ],
     "keyExams": ["densitometria óssea", "check-up cardíaco"]
   },
@@ -38,9 +44,9 @@
     "title": "🧼 Higiene Pessoal",
     "description": "Práticas para prevenir doenças e infecções.",
     "content": [
-      "**Lavagem das mãos:** Use água e sabão por 20 segundos.",
-      "**Cuidados bucais:** Escove os dentes 3x ao dia.",
-      "**Banho diário:** Fundamental para eliminar bactérias."
+      "<strong>Lavagem das mãos:</strong>\nUse água e sabão por 20 segundos.",
+      "<strong>Cuidados bucais:</strong>\nEscove os dentes 3x ao dia.",
+      "<strong>Banho diário:</strong>\nFundamental para eliminar bactérias."
     ],
     "highRiskSituations": ["pandemia", "viagens"]
   },
@@ -48,9 +54,9 @@
     "title": "🧠 Saúde Mental",
     "description": "Cuidando da mente e das emoções.",
     "content": [
-      "**Autocuidado:** Reserve tempo para hobbies e descanso.",
-      "**Sinais de alerta:** Isolamento, irritabilidade persistente.",
-      "**Procure ajuda:** Psicólogos e psiquiatras são aliados."
+      "<strong>Autocuidado:</strong>\nReserve tempo para hobbies e descanso.",
+      "<strong>Sinais de alerta:</strong>\nIsolamento, irritabilidade persistente.",
+      "<strong>Procure ajuda:</strong>\nPsicólogos e psiquiatras são aliados."
     ],
     "resources": ["meditação", "terapia", "grupos de apoio"]
   }
